@@ -1,0 +1,79 @@
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+.btn-toolbar{
+    justify-content: center;
+}
+header{
+    height: 120vh;
+    background-size: cover;
+    background-image: url("../img/wallback.jpg");
+
+}
+header .text-capitalize{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0 0 0 / 50%) 0px 2px 4px;
+    margin-top: 0;
+}
+main .container-fluid{
+    background: #010615;
+}
+main .h3{
+    color: #fff;
+}
+main h5{
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 50%) 0px 2px 4px;
+}
+main p{
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 50%) 0px 2px 4px;
+}
+article .bg-dark-plus{
+    background: #010615;
+}
+.bg-wall{
+    background-image: url("../img/red-felt-bg.jpg");
+    background-size:cover;
+    min-height: 600px;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: rgb(31, 27, 27);
+}
+.dropdown-item{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: rgb(0 0 0 / 50%) 0px 2px 4px;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+  color: #f8f9fa;
+  text-decoration: none;
+  background-color: #16181b;
+}
+
+@media screen and (max-width: 876px){
+    header{
+        background-image: none;
+        height: 140vh;
+    }   
+    
+}
+@media screen and (max-width: 990px){
+        
+    article .myOrden_1{
+        order: 2;
+    }
+    article .myOrden_2{
+        order: 1;
+    }
+}
